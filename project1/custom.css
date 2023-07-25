@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/img/pexels-maxyne-barcel-10402282\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav > ul > li {
+  list-style: none;
+}
+nav > ul > li > a {
+  font-size: 5vh;
+  text-decoration: none;
+  color: yellow;
+  padding: 20px;
+}
+.order {
+  
+  padding: 3vh;
+  color: #fff;
+  border: transparent;
+  border-radius: 3vh;
+
+  background-color: rgb(226, 36, 99);
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15vh;
+  color: yellow;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 10vh;
+  text-transform: capitalize;
+  /* //padding-top:30vh ; */
+}
+section > button {
+  margin-top: 5vh;
+  padding: 2vh;
+  color: #fff;
+  background-color: rgb(226, 36, 99);
+  font-weight: 600;
+  border: transparent;
+  border-radius: 2vh;
+}
+.scroll {
+  float: right;
+  margin-right: 2vh;
+  padding-bottom: 40px;
+}
+.scroll > img {
+  width: 20vh;
+}
